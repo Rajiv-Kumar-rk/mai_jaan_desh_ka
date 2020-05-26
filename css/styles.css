@@ -37,18 +37,6 @@ h1{
     color:whitesmoke;
 }
 
-@media(max-width:991px){
-    h1{
-        font-size:3vw;
-    }
-}
-
-@media(min-width:360px){
-    h1{
-        font-size: 3vw;
-    }
-}
-
 .navbar-toggle{
 background-color: whitesmoke;
 }
@@ -68,7 +56,7 @@ background-color: whitesmoke;
 #nav-list a:hover{
     background-color: lightgoldenrodyellow;
     color: orange;
-    font-size: 1.4em;
+    /*font-size: 1.4em;*/
 }
 
 h2,h3,#end-quote{
@@ -93,9 +81,6 @@ font-size: x-large;
 h4{
     margin-right: 10px;
 }
-
-
-
 
 .pic{
     position: relative;
@@ -172,16 +157,17 @@ margin-left: 10px;
         margin: 8.5px;
         display: inline-block;
     }
-    
-    h1{
-        font-size: 3vw;
-    }
 
     .quote{
         margin: 10px 10px;
     }
 }
 
+@media(max-width:767px){
+    h1{
+        font-size: 6vw;
+    }
+}
 .panel-footer{
     margin-top: 30px;
     padding-top: 35px;
@@ -249,6 +235,7 @@ display: flex;
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
 }
+
 
 
 
