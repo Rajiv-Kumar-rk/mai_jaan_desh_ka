@@ -5,7 +5,7 @@
 }
 body{
     background-color:lightgoldenrodyellow;
-    font-family: cursive;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav{
@@ -52,6 +52,18 @@ background-color: whitesmoke;
     font-size: 1.4em;
 }
 
+h2,h3,#end-quote{
+ font-family:Arial, Helvetica, sans-serif;
+ 
+}
+#quote,#end-quote{
+    font-style: italic;
+}
+
+h4,.name,#navy-logo,#army-logo,#airforce-logo,#copy{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #quote{
     margin-top: 7%;
 }
@@ -59,6 +71,7 @@ background-color: whitesmoke;
 h4{
     margin-right: 10px;
 }
+
 
 /*.general-bipin-rawat{
     margin-right: 0%;
@@ -119,7 +132,7 @@ h4{
     font-weight: bold;
     text-transform: uppercase;
     background-color: lightgoldenrodyellow;
-    color:rgb(115, 207, 22) ;
+    color:black ;
     opacity: .8;
 }
 
@@ -133,6 +146,7 @@ h4{
         margin-bottom: 30px;
         text-align: center;
     }
+
 }
 
 .panel-footer{
@@ -148,10 +162,6 @@ h4{
 #end-quote{
     font-size: 1.4em;
 }
-
-/*strong{
-margin-left: 30%;
-}*/
 
 .social-menu ul{
 position: absolute;
@@ -207,6 +217,7 @@ display: flex;
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
 }
+
 
 
 
