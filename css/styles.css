@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body{
+width: 100%;
+overflow-x: hidden;
+}
 body{
     background-color:lightgoldenrodyellow;
     font-family: 'Oxygen', sans-serif;
@@ -15,6 +19,7 @@ body{
 }
 
 .nav-brand{
+    margin: 5px;
     display: inline-block;
 }
 
@@ -25,11 +30,23 @@ body{
 
 h1{
     text-align: left;
-    font-size: 2.5em;
+    font-size: 3vw;
     margin: 0;
-    padding: 10px 0 0 0px;
+    padding: 5px 0 5px 0;
     font-weight: bold;
     color:whitesmoke;
+}
+
+@media(max-width:991px){
+    h1{
+        font-size:3vw;
+    }
+}
+
+@media(min-width:360px){
+    h1{
+        font-size: 3vw;
+    }
 }
 
 .navbar-toggle{
@@ -37,13 +54,15 @@ background-color: whitesmoke;
 }
 
 .name , #nav-list{
-    margin-top:10px;
+    margin-top:7px;
+    margin-bottom: 5px;
 }
 
 #nav-list a{
     color: whitesmoke;
     text-align: center;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 #nav-list a:hover{
@@ -53,11 +72,10 @@ background-color: whitesmoke;
 }
 
 h2,h3,#end-quote{
- font-family:Arial, Helvetica, sans-serif;
- 
+    font-family:Arial, Helvetica, sans-serif; 
 }
 #quote,#end-quote{
-    font-style: italic;
+    font-family: cursive;
 }
 
 h4,.name,#navy-logo,#army-logo,#airforce-logo,#copy{
@@ -65,7 +83,7 @@ h4,.name,#navy-logo,#army-logo,#airforce-logo,#copy{
 }
 
 #heading2{
-font-size:x-large;
+font-size: x-large;
 }
 
 #quote{
@@ -77,10 +95,7 @@ h4{
 }
 
 
-/*.general-bipin-rawat{
-    margin-right: 0%;
-   display: inline;
-}*/
+
 
 .pic{
     position: relative;
@@ -89,8 +104,7 @@ h4{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
-   /* padding: 2px 20px 20px 2px;*/
-   align-content: center;
+    align-content: center;
 }
 .pic-general-bipin-rawat{
     position: relative;
@@ -107,7 +121,6 @@ margin-left: 10px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
-   /* border: 2px solid black;*/
     overflow: hidden;
 }
 
@@ -155,6 +168,18 @@ margin-left: 10px;
         text-align: center;
     }
 
+    .nav-brand{
+        margin: 8.5px;
+        display: inline-block;
+    }
+    
+    h1{
+        font-size: 3vw;
+    }
+
+    .quote{
+        margin: 10px 10px;
+    }
 }
 
 .panel-footer{
@@ -173,10 +198,9 @@ margin-left: 10px;
 
 .social-menu ul{
 position: absolute;
-/*top: 50%;*/
 left: 50%;
 padding: 0px;
-margin-top: -10px;
+margin-top: 0px;
 text-align: center;
 transform: translate(-50%,-50%);
 display: flex;
@@ -225,6 +249,7 @@ display: flex;
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
 }
+
 
 
 
