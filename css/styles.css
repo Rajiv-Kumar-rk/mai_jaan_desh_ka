@@ -99,6 +99,7 @@ h4{
 
 .org{
 margin-left: 10px;
+margin-right: 10px;
 }
 
 #navy-logo,#army-logo,#airforce-logo{
@@ -157,15 +158,24 @@ margin-left: 10px;
         margin: 8.5px;
         display: inline-block;
     }
-
-    .quote{
-        margin: 10px 10px;
-    }
 }
 
 @media(max-width:767px){
     h1{
         font-size: 6vw;
+    }
+
+    .quote{
+        margin: 10px 10px;
+    }
+
+    #heading1,#heading2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .navbar-toggle{
+        margin-top: 10px;
     }
 }
 .panel-footer{
@@ -235,6 +245,7 @@ display: flex;
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
 }
+
 
 
 
