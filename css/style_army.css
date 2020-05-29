@@ -38,7 +38,7 @@ h1{
 }
 
 .navbar-toggle{
-background-color: whitesmoke;
+background-color: whitesmoke; 
 }
 
 .name , #nav-list{
@@ -199,7 +199,7 @@ margin-right: 10px;
         font-size: 6vw;
     }
 
-    .quote{
+    #quote{
         margin: 10px 10px;
     }
 

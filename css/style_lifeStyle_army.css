@@ -60,7 +60,7 @@ background-color: whitesmoke;
     color:maroon;
 }
 
-#page-name{
+#page-name{ 
     text-decoration: none;
     color: whitesmoke;
 }
@@ -98,7 +98,7 @@ h2,#quote,#end-quote{
 strong{
     font-size: 1.6em;
 }
-ul{
+.life-points{
     margin-left: 20px;
     font-size: 1.3em;
 }
@@ -125,11 +125,16 @@ h4,.name,#copy{
         font-size: 6vw;
     }
 
+    #quote{
+        margin: 10px 10px;
+    }
+
+
     #heading1{
         margin-left: 5px;
         margin-right: 5px;
         font-size: xx-large;
-    }
+    } 
 
     .navbar-toggle{
         margin-top: 10px;
