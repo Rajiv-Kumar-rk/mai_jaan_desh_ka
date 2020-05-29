@@ -13,7 +13,7 @@ body{
 }
 
 #header-nav{
-    background-color: orange;
+    background-color: maroon;
     border-radius: 0;
     border: 0;
 }
@@ -55,19 +55,15 @@ background-color: whitesmoke;
 
 #nav-list a:hover{
     background-color: lightgoldenrodyellow;
-    color: orange;
+    color:maroon;
     /*font-size: 1.4em;*/
 }
-
-/*#active1{
-    background-color: lightgoldenrodyellow;
-    color: orange;
-}*/
 
 #page-name{
     text-decoration: none;
     color: whitesmoke;
 }
+
 h2,h3,#end-quote{
     font-family:Arial, Helvetica, sans-serif; 
 }
@@ -79,9 +75,9 @@ h4,.name,#navy-logo,#army-logo,#airforce-logo,#copy{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#heading2{
+/*#heading2{
 font-size: x-large;
-}
+}*/
 
 #quote{
     margin-top: 7%;
@@ -100,18 +96,47 @@ h4{
     margin-bottom: 5px;
     align-content: center;
 }
-.pic-general-bipin-rawat{
+.pic-general-manoj-mukund-naravane{
     position: relative;
     margin-left: 42px;
     margin-right: 21px;
+    border: 2px solid black;
+}
+
+.pic-indian-army{
+    display: inline;
+}
+
+.about-indian-army{
+    position: initial;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.pic-army{
+    position: relative;
+    float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.pic-about-indian-army{
+    position: relative;
+    margin-left: 0px;
+    margin-right: 21px;
+    margin-bottom: 15px;
+    border: 2px solid black;
 }
 
 .org{
-margin-left: 10px;
+margin-left: 15px;
 margin-right: 10px;
 }
 
-#navy-logo,#army-logo,#airforce-logo{
+#life-style-army,#ways-to-join-army,#structure-army{
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
@@ -119,26 +144,26 @@ margin-right: 10px;
     overflow: hidden;
 }
 
-#navy-logo:hover,#army-logo:hover,#airforce-logo:hover{
+#life-style-army:hover,#ways-to-join-army:hover,#structure-army:hover{
     box-shadow: 0 1px 5px 1px orange;
 }
 
-#navy-logo{
-    background:url(../project_images/logo_navy.jpg) no-repeat;
+#life-style-army{
+    background:url(../project_images/life-style-army.jpg) no-repeat;
     background-position: center;
 }
 
-#army-logo{
-    background:url(../project_images/logo_army.png) no-repeat;
+#ways-to-join-army{
+    background:url(../project_images/ways-to-join-army.jpg) no-repeat;
     background-position: center;
 }
 
-#airforce-logo{
-    background:url(../project_images/logo_airforce.png) no-repeat;
+#structure-army{
+    background:url(../project_images/structure-army.jpg) no-repeat;
     background-position: center;
 }
 
-#navy-logo span,#army-logo span,#airforce-logo span{
+#life-style-army span,#ways-to-join-army span,#structure-army span{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -153,7 +178,7 @@ margin-right: 10px;
 }
 
 @media(max-width: 767px){
-    #navy-logo,#army-logo,#airforce-logo{
+    #life-style-army,#ways-to-join-army,#structure-army{
         width:280px;
         margin: 0 auto 15px auto;
     }
@@ -178,7 +203,7 @@ margin-right: 10px;
         margin: 10px 10px;
     }
 
-    #heading1,#heading2{
+    #heading1{
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -192,7 +217,7 @@ margin-right: 10px;
     padding-top: 35px;
     padding-bottom: 30px;
     font-size: 1.2em;
-    background-color: rgb(115, 207, 22);
+    background-color: #5B7742;
     color: lightgoldenrodyellow;
     border-top: 0;
 }
@@ -254,26 +279,3 @@ display: flex;
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
