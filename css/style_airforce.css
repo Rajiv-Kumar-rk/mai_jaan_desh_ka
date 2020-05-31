@@ -96,24 +96,24 @@ h4{
     margin-bottom: 5px;
     align-content: center;
 }
-.pic-general-manoj-mukund-naravane{
+.pic-rakesh-kumar-singh-bhadauria{
     position: relative;
     margin-left: 70px;
     margin-right: 40px;
     border: 2px solid black;
 }
 
-.pic-indian-army{
+.pic-indian-airforce{
     display: inline;
 }
 
-.about-indian-army{
+.about-indian-airforce{
     position: initial;
     margin-left: 0px;
     margin-right: 10px;
 }
 
-.pic-army{
+.pic-airforce{
     position: relative;
     float: left;
     margin-top: 2px;
@@ -123,7 +123,7 @@ h4{
     align-content: center;
 }
 
-.pic-about-indian-army{
+.pic-about-indian-airforce{
     position: relative;
     margin-left: 0px;
     margin-right: 21px;
@@ -149,17 +149,17 @@ margin-right: 10px;
 }
 
 #life-style-army{
-    background:url(../project_images/life-style-army.jpg) no-repeat;
+    background:url(../project_images/life-style-airforce.jpg) no-repeat;
     background-position: center;
 }
 
 #ways-to-join-army{
-    background:url(../project_images/ways-to-join-army.jpg) no-repeat;
+    background:url(../project_images/ways-to-join-airforce.jpg) no-repeat;
     background-position: center;
 }
 
 #structure-army{
-    background:url(../project_images/structure-army.jpg) no-repeat;
+    background:url(../project_images/logo_airforce.png) no-repeat;
     background-position: center;
 }
 
@@ -260,7 +260,7 @@ display: flex;
     border-radius: 50%;
     background-color: #fff;
     text-align: center;
-    transition: .6s;
+    transition: .6s; 
     box-shadow: 0 5px 4 px rgba(0,0,0,.5);
 }
 

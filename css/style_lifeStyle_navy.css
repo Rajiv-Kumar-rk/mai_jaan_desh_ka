@@ -60,34 +60,50 @@ background-color: whitesmoke;
     color:maroon;
 }
 
-#page-name{
+#page-name{ 
     text-decoration: none;
     color: whitesmoke;
 }
 
 #heading1{
-color: black;
+    color: black;
 }
 
-/*h3{
-margin-top: 3%;
-margin-bottom: 2%;
-}*/
+h3{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
 
-h2,#end-quote{
+h2,#quote,#end-quote{
     font-family:Arial, Helvetica, sans-serif; 
 }
-#end-quote{
+
+#quote{
+    margin-top: 7%;
+}
+
+#quote,#end-quote{
     font-family: cursive;
 }
 
-.name{
-margin-top: 10px;
-margin-left: 35px;
-font-size: 1.2em;
+.life{
+    margin-top: 20px;
 }
 
-#copy{
+.name{
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+strong{
+    font-size: 1.6em;
+}
+.life-points{
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+h4,.name,#copy{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -99,7 +115,7 @@ font-size: 1.2em;
     }
 
     .nav-brand{
-        margin: 8.5px; 
+        margin: 8.5px;
         display: inline-block;
     }
 }
@@ -109,11 +125,16 @@ font-size: 1.2em;
         font-size: 6vw;
     }
 
+    #quote{
+        margin: 10px 10px;
+    }
+
+
     #heading1{
         margin-left: 5px;
         margin-right: 5px;
         font-size: xx-large;
-    }
+    } 
 
     .navbar-toggle{
         margin-top: 10px;

@@ -13,7 +13,7 @@ body{
 }
 
 #header-nav{
-    background-color: maroon;
+    background-color: orange;
     border-radius: 0; 
     border: 0;
 }
@@ -55,7 +55,7 @@ background-color: whitesmoke;
 
 #nav-list a:hover{
     background-color: lightgoldenrodyellow;
-    color:maroon;
+    color:orange;
     /*font-size: 1.4em;*/
 }
 
@@ -136,7 +136,7 @@ margin-left: 15px;
 margin-right: 10px;
 }
 
-#life-style-army,#ways-to-join-army,#structure-army{
+#army-logo,#airforce-logo,#navy-logo,#life-style-army,#life-style-airforce,#life-style-navy,#ways-to-join-army,#ways-to-join-airforce,#ways-to-join-navy,#structure-army,#structure-navy,#structure-airforce{
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
@@ -144,8 +144,13 @@ margin-right: 10px;
     overflow: hidden;
 }
 
-#life-style-army:hover,#ways-to-join-army:hover,#structure-army:hover{
+#army-logo:hover,#airforce-logo:hover,#navy-logo:hover,#life-style-army:hover,#ways-to-join-army:hover,#structure-army:hover,#life-style-airforce:hover,#ways-to-join-airforce:hover,#structure-airforce:hover,#life-style-navy:hover,#ways-to-join-navy:hover,#structure-navy:hover{
     box-shadow: 0 1px 5px 1px orange;
+}
+
+#army-logo{
+    background:url(../project_images/logo_army.png) no-repeat;
+    background-position: center;
 }
 
 #life-style-army{
@@ -163,7 +168,47 @@ margin-right: 10px;
     background-position: center;
 }
 
-#life-style-army span,#ways-to-join-army span,#structure-army span{
+#navy-logo{
+    background:url(../project_images/logo_navy.jpg) no-repeat;
+    background-position: center;
+}
+
+#life-style-navy{
+    background:url(../project_images/life-style-navy.jpg) no-repeat;
+    background-position: center;
+}
+
+#ways-to-join-navy{
+    background:url(../project_images/ways-to-join-navy.jpg) no-repeat;
+    background-position: center;
+}
+
+#structure-navy{
+    background:url(../project_images/logo_navy.jpg) no-repeat;
+    background-position: center;
+}
+
+#airforce-logo{
+    background:url(../project_images/logo_airforce.png) no-repeat;
+    background-position: center;
+}
+
+#life-style-airforce{
+    background:url(../project_images/life-style-airforce.jpg) no-repeat;
+    background-position: center;
+}
+
+#ways-to-join-airforce{
+    background:url(../project_images/ways-to-join-airforce.jpg) no-repeat;
+    background-position: center;
+}
+
+#structure-airforce{
+    background:url(../project_images/logo_airforce.png) no-repeat;
+    background-position: center;
+}
+
+#army-logo span,#life-style-army span,#ways-to-join-army span,#structure-army span,#navy-logo span,#life-style-navy span,#ways-to-join-navy span,#structure-navy span,#airforce-logo span,#life-style-airforce span,#ways-to-join-airforce span,#structure-airforce span{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -178,7 +223,7 @@ margin-right: 10px;
 }
 
 @media(max-width: 767px){
-    #life-style-army,#ways-to-join-army,#structure-army{
+    #life-style-army,#ways-to-join-army,#structure-army,#life-style-navy,#ways-to-join-navy,#structure-navy,#life-style-airforce,#ways-to-join-airforce,#structure-airforce,#army-logo,#navy-logo,#airforce-logo{
         width:280px;
         margin: 0 auto 15px auto;
     }
@@ -217,7 +262,7 @@ margin-right: 10px;
     padding-top: 35px;
     padding-bottom: 30px;
     font-size: 1.2em;
-    background-color: #5B7742;
+    background-color:rgb(115, 207, 22);
     color: lightgoldenrodyellow;
     border-top: 0;
 }

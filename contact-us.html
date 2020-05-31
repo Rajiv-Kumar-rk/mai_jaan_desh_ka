@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission-form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_user_form.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+     <!-- jQuery -->
+     <script src="js/jquery-2.1.4.min.js"></script>
+     <script src="js/bootstrap.min.js"></script> 
+     <script src="js/script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                   <div class="nav-brand">
+                   <h1><a href="index.html" id="page-name">MAI JAAN DESH KA</a></h1>
+                   </div>
+                   <div class="btn">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span> 
+                   </button>
+                   </div>
+                 </div>
+                 <div id="collapsable-nav" class=" collapsable navbar-collapse collapse">
+                     <ul id="nav-list" class="nav navbar-nav navbar-right">
+                         <li>
+                             <a href="index.html" class="nav-button" id="active1" >Home</a>
+                         </li>
+                         <li>
+                          <a href="blog.html" class="nav-button" id="active2" >Blog</a>
+                         </li>
+                         <li>
+                          <a href="donate.html" class="nav-button" id="active3" >Donate</a>
+                         </li>
+                         <li>
+                          <a href="about-us.html" class="nav-button" id="active4" >About Us</a>
+                         </li>
+                         <li>
+                          <a href="contact-us.html" class="nav-button" id="active5" >Contact Us</a>
+                         </li>
+                     </ul>
+                 </div>    
+            </div>
+        </nav>
+      </header>
+    <div class="container">
+        <div class="row">
+          <div class="contact-title">
+          <h1 class="jai-hind">Jai Hind!!!</h1>
+          <h3 class="jai-hind">We are always ready to you serve you!</h3>
+          <div id="error_message"></div>
+          </div>
+          <div class="submission-form">
+          <form id="contact-form" onsubmit="return validation()" > 
+            <input name="name" type="text" class="form-control" placeholder="Your Name" id="name" >
+            <br>
+            
+            <input name ="phone" type="text" class ="form-control" placeholder = "Your Phone-Number" id="phone-number" >
+            <br>
+            <input name ="email" type="email" class ="form-control" placeholder="Your Email" id="email" >
+            <br>
+            <textarea name ="message" class ="form-control" placeholder="Message" row="4" id="message" ></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE" >
+          </form>
+          </div>
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="end-quote" class="col-xs-12">
+                    <p class="text-center">“ Either I will come back after hoisting the tricolor, or I will come back wrapped in it, but I will be back for sure. ”</p><br><br>
+                    <hr class="visible-xs">
+                </section>
+            </div>
+            <div class="social-menu"><br>
+                <ul class="text-center">
+                    <li><a title="Instagram" href="https://www.instagram.com/mai_jaan_desh_ka/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a title="Facebook" href="https://www.facebook.com/ArmedForcesMotivationalWriter"><i class="fa fa-facebook"></i></a></li>
+                    <li><a title="Twitter" href="https://twitter.com/R_k_writes"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+           <br><br><hr class="visible-xs"><br><br>
+           <div class="text-center" id="copy">&copy;Copyright Mai Jaan Desh Ka 2020(Rajiv_Kumar_1902202_CSE_D2)</div>
+        </div>
+    </footer>
+</body>
+</html>
