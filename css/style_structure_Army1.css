@@ -53,7 +53,7 @@ background-color: whitesmoke;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-}
+} 
 
 #nav-list a:hover{
     background-color: lightgoldenrodyellow;
@@ -64,7 +64,7 @@ background-color: whitesmoke;
     text-decoration: none;
     color: whitesmoke;
 }
-
+ 
 #heading1{
 color: black;
 }
@@ -96,9 +96,94 @@ h2,h3,#end-quote{
 }
 .name{
 margin-top: 10px;
-margin-left: 0px;
+margin-left: 0px; 
 font-size: 1.2em;
 }
+
+.Rank-logo{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative; 
+    overflow: hidden;
+}
+
+
+#Field-marshal{
+    background: url(../project_images/50px-Field_Marshal_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#General{
+    background: url(../project_images/50px-General_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-general{
+    background: url(../project_images/50px-Lieutenant_General_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+} 
+
+#Major-general{
+    background: url(../project_images/50px-Major_General_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Brigadier{
+    background: url(../project_images/50px-Brigadier_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Colonel{
+    background: url(../project_images/50px-Colonel_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-colonel{
+    background: url(../project_images/50px-Lieutenant_Colonel_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Major{
+    background: url(../project_images/50px-Major_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Captain{
+    background: url(../project_images/50px-Captain_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant{
+    background: url(../project_images/50px-Lieutenant_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Subedar-major{
+    background: url(../project_images/50px-Subedar_Major_-_Risaldar_Major_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Subedar{
+    background: url(../project_images/Subedar_-_Risaldar_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Naib-subedar{
+    background: url(../project_images/Naib_Subedar_-_Naib_Risaldar_of_the_Indian_Army.png) no-repeat;
+    background-position: center;
+}
+
+#Havildar{
+    background: url(../project_images/70px-India-Army-OR-6.png) no-repeat;
+    background-position: center;
+}
+
+#Naik{
+    background: url(../project_images/70px-India-Army-OR-4.png) no-repeat;
+    background-position: center;
+}
+
 
 #copy{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -198,4 +283,4 @@ display: flex;
 
 .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
-}
+} 

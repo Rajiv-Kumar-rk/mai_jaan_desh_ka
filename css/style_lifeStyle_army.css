@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 html,body{ 
@@ -51,7 +51,7 @@ background-color: whitesmoke;
 #nav-list a{
     color: whitesmoke;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; 
     border-radius: 5px;
 }
 
@@ -67,6 +67,10 @@ background-color: whitesmoke;
 
 #heading1{
     color: black;
+}
+
+.main-heading{
+    font-weight: bold;
 }
 
 h3{
@@ -96,7 +100,7 @@ h2,#quote,#end-quote{
 }
 
 strong{
-    font-size: 1.6em;
+    font-size: 1.0em;
 }
 .life-points{
     margin-left: 20px;

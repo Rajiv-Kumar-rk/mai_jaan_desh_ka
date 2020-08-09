@@ -100,6 +100,101 @@ margin-left: 0px;
 font-size: 1.2em;
 }
 
+.Rank-logo{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative; 
+    overflow: hidden;
+}
+
+
+#Marshal-IAF{
+    background: url(../project_images/100px-India-AirForce-OF-10-Marshal.png) no-repeat;
+    background-position: center;
+}
+
+#Air-Chief-Marshal{
+    background: url(../project_images/100px-India-AirForce-OF-9-Air-Chief-Marshal.png) no-repeat;
+    background-position: center;
+}
+
+#Air-Marshal{
+    background: url(../project_images/100px-India-AirForce-OF-8-Air-Marshal.png) no-repeat;
+    background-position: center;
+} 
+
+#Air-Vice-Marshal{
+    background: url(../project_images/100px-India-AirForce-OF-7-Air-Vice-Marshal.png) no-repeat;
+    background-position: center;
+}
+
+#Air-Commodore{
+    background: url(../project_images/100px-India-AirForce-OF-6-Air-Commodore.png) no-repeat;
+    background-position: center;
+}
+
+#Group-Captain{
+    background: url(../project_images/British_RAF_OF-Group-Captain.png) no-repeat;
+    background-position: center;
+}
+
+#Wing-Commander{
+    background: url(../project_images/British_RAF_OF-4-Wing-Commander.png) no-repeat;
+    background-position: center;
+}
+
+#Squadron-Leader{
+    background: url(../project_images/British_RAF_OF-3-Squadron-Leader.png) no-repeat;
+    background-position: center;
+}
+
+#Flight-Lieutenant{
+    background: url(../project_images/British_RAF_OF-2-Flight-Lieutenant.png) no-repeat;
+    background-position: center;
+}
+
+#Flying-Officer{
+    background: url(../project_images/British_RAF_OF-1b-Flying-Officer.png) no-repeat;
+    background-position: center;
+}
+
+#Master-Warrant-Officer{
+    background: url(../project_images/50px-India-Air-OR-9-Master-Warrant-Officer.png) no-repeat;
+    background-position: center;
+}
+
+#Warrant-Officer{
+    background: url(../project_images/50px-India-Air-OR-8-Warrant-Officer.png) no-repeat;
+    background-position: center;
+}
+
+#Junior-Warrant-Officer{
+    background: url(../project_images/50px-India-Air-OR-7-Junior-Warrant-Officer.png) no-repeat;
+    background-position: center;
+}
+
+#Sergeant{
+    background: url(../project_images/50px-IAF_Sergeant.png) no-repeat;
+    background-position: center;
+}
+
+#Corporal{
+    background: url(../project_images/50px-IAF_Corporal.png) no-repeat;
+    background-position: center;
+}
+
+#Leading-Aircraftsman{
+    background: url(../project_images/50px-IAF_Leading-Aircraftsman.png) no-repeat;
+     background-position: center;
+ }
+
+#Aircraftsman{
+   background: url(../project_images/50px-IAF_Aircraftsman.png) no-repeat;
+    background-position: center;
+}
+
+
 #copy{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -180,7 +275,7 @@ display: flex;
     border-radius: 50%;
     background-color: #fff;
     text-align: center;
-    transition: .6s;
+    transition: .6s; 
     box-shadow: 0 5px 4 px rgba(0,0,0,.5);
 }
 

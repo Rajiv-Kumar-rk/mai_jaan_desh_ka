@@ -100,6 +100,141 @@ margin-left: 0px;
 font-size: 1.2em;
 }
 
+.Rank-logo{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;  
+    overflow: hidden;
+}
+
+
+#Admiral-of-the-fleet-1{
+    background: url(../project_images/50px-IN_Admiral_of_the_Fleet_NAVY_Shoulder_curl.png) no-repeat;
+    background-position: center;
+}
+
+#Admiral-of-the-fleet-2{
+    background: url(../project_images/50px-IN_Admiral_of_the_Fleet_NAVY_Sleeves_curl.png) no-repeat;
+    background-position: center;
+}
+
+#Admiral-1{
+    background: url(../project_images/50px-14-Indian_Navy-Admiral_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Admiral-2{
+    background: url(../project_images/Admiral_of_Indian_Navy_sleeves_OF-9.png) no-repeat;
+    background-position: center;
+}
+
+#Vice-admiral-1{
+    background: url(../project_images/50px-13-Indian_Navy-Vice_ADM_shoulder.png) no-repeat;
+    background-position: center;
+} 
+
+#Vice-admiral-2{
+    background: url(../project_images/Vice_ADM_of_Indian_Navy_sleeves_OF-8.png) no-repeat;
+    background-position: center;
+} 
+
+#Rear-admiral-1{
+    background: url(../project_images/50px-12-Indian_Navy-Rear_ADM_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Rear-admiral-2{
+    background: url(../project_images/Rear_ADM_Navy_sleeves_OF-7.png) no-repeat;
+    background-position: center;
+}
+
+#Commodore-1{
+    background: url(../project_images/50px-11-Indian_Navy-Commodore_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Commodore-2{
+    background: url(../project_images/Commodore_navy_sleeves_OF-6.png) no-repeat;
+    background-position: center;
+}
+
+#Captain-1{
+    background: url(../project_images/50px-10-Indian_Navy-Captain_Shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Captain-2{
+    background: url(../project_images/50px-Captain_Navy_sleeves_OF-5.png) no-repeat;
+    background-position: center;
+}
+
+#Commander-1{
+    background: url(../project_images/50px-09-Indian_Navy-Commander_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Commander-2{
+    background: url(../project_images/Commander_Navy_sleeves_OF-4.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-commander-1{
+    background: url(../project_images/50px-08-Indian_Navy-Lieutenant_commander_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-commander-2{
+    background: url(../project_images/Lieutenant_Commander_Navy_sleeves_OF-3.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-1{
+    background: url(../project_images/50px-07-Indian_Navy-Lieutenant_Shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Lieutenant-2{
+    background: url(../project_images/Lieutenant_Navy_sleeves_OF-2.png) no-repeat;
+    background-position: center;
+}
+
+#Sub-lieutenant-1{
+    background: url(../project_images/50px-06-Indian_Navy-Sub_Lieutenant_shoulder.png) no-repeat;
+    background-position: center;
+}
+
+#Sub-lieutenant-2{
+    background: url(../project_images/Sub_Lieutenant_Navy_sleeves_OF-1.png) no-repeat;
+    background-position: center;
+}
+
+#Master-chief-petty-officer-1{
+    background: url(../project_images/50px-India-Navy-OR-9-Master_Chief_petty_1st.png) no-repeat;
+    background-position: center;
+}
+
+#Master-chief-petty-officer-2{
+    background: url(../project_images/50px-India-Navy-OR-8-Master_Chief_petty_2.png) no-repeat;
+    background-position: center;
+}
+
+#Chief-petty-officer{
+    background: url(../project_images/50px-India-Navy-OR-7-Chief_petty.png) no-repeat;
+    background-position: center;
+}
+
+#Petty-officer{
+    background: url(../project_images/PO_Indian_Navy.OR-6_petty.png) no-repeat;
+    background-position: center;
+}
+
+#Leading-seaman{
+    background: url(../project_images/Leading_Seaman_Indian_Navy.png) no-repeat;
+    background-position: center;
+}
+
+
 #copy{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -187,7 +322,7 @@ display: flex;
 .social-menu ul li a:hover{
     transform: translate(0,-10px);
 }
-
+ 
 .social-menu ul li:nth-child(1) a:hover{
     background-color:#e4405f;
 }
