@@ -38,7 +38,7 @@ h1{
     font-weight: bold;
     color:whitesmoke;
 }
-
+ 
 .jai-hind{
     color:black;
     text-align: center;
@@ -182,8 +182,15 @@ form .submit:hover{
 
     .navbar-toggle{
         margin-top: 10px;
+    } 
+}
+
+@media(max-width:767px){
+    .form-control{
+        width: 310px;
     }
 }
+
 .panel-footer{
     margin-top: 30px;
     padding-top: 35px;

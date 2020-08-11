@@ -10,33 +10,33 @@
      error_message.style.padding = "10px";
 
      if(name.length <5){
-         text = "Please Enter Valid Name";
-         error_message.innerHTML = text;
-         return false;
+         
+
+         alert("Please Enter Valid Name")
+         return true;
      }
 
      /*if(gender != "Male" || gender != "Female" || gender != "Transgender" || gender != "Both" ){
         text = "Please Enter Valid Gender : Male , Female , Transgender or Both";
         error_message.innerHTML = text;
-        return false;
+        return false; 
      }*/
 
      if(isNaN(phone_number) || phone_number.length != 10){
-        text = "Please Enter Valid Phone Number";
-        error_message.innerHTML = text;
-        return false;
+        
+        alert("Please Enter Valid Phone Number")
+        return true;
     }
 
     if(email.indexOf("@") == -1 || email.length<6){
-        text = "Please Enter Valid Email";
-        error_message.innerHTML = text;
-        return false;
+        
+        alert("Please Enter Your Email")
+        return true;
     }
 
-    if(message.length <=10){
-        text = "Please Enter More Than 10 Characters";
-        error_message.innerHTML = text;
-        return false;
+    if(message.length <1){
+        alert("Please Enter Your Message")
+        return true;
     }
 
     alert("Form Submitted Successfully!")
